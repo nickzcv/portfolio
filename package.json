@@ -1,7 +1,6 @@
 {
-  "name": "shane",
-  "version": "1.1.7",
-  "private": true,
+  "name": "Zaitsau",
+  "version": "0.0.1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -26,6 +25,10 @@
     "simple-react-lightbox": "^3.6.6",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
   },
   "scripts": {
     "start": "react-scripts start",

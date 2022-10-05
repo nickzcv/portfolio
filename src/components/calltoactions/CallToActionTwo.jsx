@@ -19,7 +19,7 @@ const CallToActionTwo = () => {
         className="shane_tm_talk bg_image_props"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/callto-action/2.jpg"
+            process.env.PUBLIC_URL + "img/callto-action/code.jpeg"
           })`,
         }}
       >
@@ -46,7 +46,7 @@ const CallToActionTwo = () => {
             data-aos-delay="100"
           >
             <button className="white-fill-bg" onClick={toggleModalOne}>
-              Make an enquiry
+              Contanct with me
             </button>
           </div>
         </div>
@@ -99,7 +99,7 @@ const CallToActionTwo = () => {
                         src="img/svg/location.svg"
                         alt="location"
                       />
-                      <p>Brook 103, 90021 New York, USA</p>
+                      <p>Minsk, Belarus</p>
                     </div>
                   </li>
                   {/* End silgle address */}
@@ -112,7 +112,7 @@ const CallToActionTwo = () => {
                         alt="phone"
                       />
                       <p>
-                        <a href="tel:+77 033 442 55 57">+77 033 442 55 57</a>
+                        <a href="tel:+77 033 442 55 57">+375 33 69 69 683</a>
                       </p>
                     </div>
                   </li>
@@ -122,10 +122,12 @@ const CallToActionTwo = () => {
                     <div className="list_inner">
                       <img
                         className="svg"
-                        src="img/svg/share.svg"
-                        alt="share"
+                        src="img/svg/email.svg"
+                        alt="phone"
                       />
-                      <Social />
+                      <p>
+                        <a mailto="nickzcv@gmail.com">nickzcv@gmail.com</a>
+                      </p>
                     </div>
                   </li>
                   {/* End silgle address */}

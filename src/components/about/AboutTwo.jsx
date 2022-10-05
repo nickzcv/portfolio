@@ -19,7 +19,7 @@ const AboutTwo = () => {
                     className="main"
                     style={{
                       backgroundImage: `url(${
-                        process.env.PUBLIC_URL + "img/about/2.jpg"
+                        process.env.PUBLIC_URL + "img/about/Avatar.jpeg"
                       })`,
                     }}
                   ></div>
@@ -35,7 +35,7 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>Creative Ui & Ux Designer based in New York, USA</h3>
+                  <h3>Front-End/JS developer based in Minsk, Belarus</h3>
                 </div>
                 <div
                   className="text"
@@ -43,11 +43,19 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I'm web designer, and I'm very passionate and dedicated to
-                    my work. With 20 years experience as a professional web
-                    developer, I have acquired the skills and knowledge
-                    necessary to make your project a success. I enjoy every step
-                    of the design process, from discussion and collaboration.
+                  I'm developer with 10+ years of experience in software application development.
+                  </p>
+                  <p>
+                  I have perfect understanding of all stages of software development process.
+                  </p>
+                  <p>
+                  Skilled in UI/UX design/front-end architecture and translating customer needs into software solutions.
+                  </p>
+                  <p>
+                  Hands-on experience in web performance optimization, mobile first and progressive enhancement concepts.
+                  </p>
+                  <p>
+                  Experienced in full-stack development.
                   </p>
                 </div>
                 <div
@@ -55,7 +63,7 @@ const AboutTwo = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="img/resume/resume.jpg" download>
+                  <a href="img/resume/Mikalai_Zaitsau_CV.docx" download>
                     Download CV
                   </a>
                 </div>

@@ -19,7 +19,7 @@ const NotFound = () => {
           <Link className="white-fill-bg btn-outline" to="/">
             BACK TO HOME
           </Link>
-          {/* End purchase_button */}
+
         </div>
       </div>
       {/* End .hero */}

@@ -22,16 +22,10 @@ const Header = () => {
     <>
       <div className="shane_tm_topbar">
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
-          <div className="logo">
-            <NavLink to="/">
-              <img src="/img/logo/new/dark.png" alt="partners brand" />
-            </NavLink>
-          </div>
-          {/* End logo */}
           <div className="menu">
             <Scrollspy
               className="anchor_nav"
-              items={["home", "about", "portfolio", "news", "contact"]}
+              items={["home", "about", "skills", "contact"]}
               currentClassName="current"
               offset={-200}
             >
@@ -39,26 +33,13 @@ const Header = () => {
                 <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about">About me</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#news">News</a>
+                <a href="#skills">Skills</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
-              </li>
-              <li>
-                <a
-                  className="white-fill-bg btn-outline btn_sm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://themeforest.net/item/shane-react-personal-portfolio-template/32642263"
-                >
-                  Buy Now
-                </a>
               </li>
             </Scrollspy>
           </div>
@@ -109,17 +90,12 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#about" onClick={handleClick}>
-                    About
+                    About me
                   </a>
                 </li>
                 <li>
-                  <a href="#portfolio" onClick={handleClick}>
-                    Portfolio
-                  </a>
-                </li>
-                <li>
-                  <a href="#news" onClick={handleClick}>
-                    News
+                  <a href="#skills" onClick={handleClick}>
+                    Skills
                   </a>
                 </li>
                 <li>
@@ -127,21 +103,12 @@ const Header = () => {
                     Contact
                   </a>
                 </li>
-                <li>
-                  <a
-                    className="white-fill-bg btn-outline btn_sm"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://themeforest.net/"
-                  >
-                    Buy Now
-                  </a>
-                </li>
               </ul>
+               {/*
               <div className="social-menu">
                 <Social />
               </div>
-              {/* End social share */}
+              End social share */}
             </div>
           </div>
           {/* End container */}

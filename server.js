@@ -12,7 +12,7 @@ require('dotenv').config();
 const app = express();
 
 // Load Prod env
-production && app.use(express.static(path.join(__dirname, '../client/build')));
+production && app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Parse incoming request bodies in a middleware before your handlers
 // available under the req.body property
@@ -30,7 +30,7 @@ console.log(production)
 // Run Prod
 production &&
   app.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
   });
 // Start point
 app.listen(process.env.PORT, function () {

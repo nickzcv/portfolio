@@ -43,7 +43,7 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                  I'm developer with 10+ years of experience in software application development.
+                  I'm a developer with 10+ years of experience in software application development.
                   </p>
                   <p>
                   I have perfect understanding of all stages of software development process.

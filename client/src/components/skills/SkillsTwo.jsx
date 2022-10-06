@@ -26,7 +26,7 @@ const SkillsTwo = () => {
                   • Solution creating/documenting; 
                   <p>
                   </p>
-                  • Developing process organization and improvement; 
+                  • Development process organization and improvement; 
                   <p>
                   </p>
                   • Leading demos for customers; 
@@ -46,7 +46,7 @@ const SkillsTwo = () => {
                   • <b>Programming Languages:</b> JavaScript, TypeScript, PHP 
                   </p>
                   <p>
-                  • <b>Technologies and Frameworks:</b> ES2015, ES6+, Node.js, React.js, Redux, Saga, Express.js, Backbone, Marionette.js, Angular 1.5, Bootstrap, Handlebars, Less, SASS, Chart.js, D3.js, Three.js, Telegram BOT API, AJAX, RESTful API, WebSocket JSON, jQuery, Storybook, HTML/HTML5, CSS/CSS3 
+                  • <b>Technologies and Frameworks:</b> ES2015, ES6+, Node.js, React.js, Redux, Saga, Express.js, Backbone, Marionette.js, Angular 1.5, Bootstrap, Handlebars, Less, SASS, Chart.js, D3.js, Three.js, Telegram BOT API, AJAX, RESTful API, WebSocket, GraphQL, Storybook, jQuery, HTML/HTML5, CSS/CSS3 
                   </p>
                   <p>
                   • <b>Tools:</b> Webpack, npm, gulp, ESLint, Travis, Kubernetes 
@@ -190,7 +190,23 @@ const SkillsTwo = () => {
 
                   <div className="progress_inner">
                     <span>
-                      <span className="label">Angular 1.5</span>
+                      <span className="label">MySQL</span>
+                      <span className="number">80%</span>
+                    </span>
+                    <div className="background">
+                      <div className="bar">
+                        <div
+                          className="bar_in"
+                          style={{ width: 80 + "%" }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .progress_inner */}
+
+                  <div className="progress_inner">
+                    <span>
+                      <span className="label">GraphQL</span>
                       <span className="number">70%</span>
                     </span>
                     <div className="background">
@@ -206,7 +222,7 @@ const SkillsTwo = () => {
 
                   <div className="progress_inner">
                     <span>
-                      <span className="label">Ember</span>
+                      <span className="label">Angular 1.5</span>
                       <span className="number">50%</span>
                     </span>
                     <div className="background">

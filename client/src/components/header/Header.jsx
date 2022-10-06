@@ -54,9 +54,7 @@ const Header = () => {
           <div className="container bigger">
             <div className="topbar_in">
               <div className="logo">
-                <NavLink to="/">
-                  <img src="/img/logo/new/dark.png" alt="partners brand" />
-                </NavLink>
+             
               </div>
               {/* End logo */}
               <div className="my_trigger" onClick={handleClick}>

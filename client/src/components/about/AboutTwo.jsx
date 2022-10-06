@@ -35,7 +35,8 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Me</span>
-                  <h3>Front-End/JS developer based in Minsk, Belarus</h3>
+                  <h3>Front-End & JS developer</h3>
+                  <h5>based in Minsk, Belarus</h5>
                 </div>
                 <div
                   className="text"

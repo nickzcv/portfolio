@@ -73,36 +73,25 @@ const CallToActionTwo = () => {
                 <h3>Get in touch</h3>
               </div>
               {/* End title */}
-
+{/*
               <div className="wrapper">
                 <div className="left">
                   <div className="fields">
                     <Contact />
                   </div>
                 </div>
-                {/* End left */}
+       
                 <div className="right">
                   <div className="map_wrap">
                     <Map />
                   </div>
                 </div>
-                {/* End right */}
+     
               </div>
-              {/* End wrapper */}
+               End wrapper */}
 
               <div className="short_info">
                 <ul>
-                  <li>
-                    <div className="list_inner">
-                      <img
-                        className="svg"
-                        src="img/svg/location.svg"
-                        alt="location"
-                      />
-                      <p>Minsk, Belarus</p>
-                    </div>
-                  </li>
-                  {/* End silgle address */}
 
                   <li>
                     <div className="list_inner">
@@ -123,14 +112,27 @@ const CallToActionTwo = () => {
                       <img
                         className="svg"
                         src="img/svg/email.svg"
-                        alt="phone"
+                        alt="email"
                       />
                       <p>
-                        <a mailto="nickzcv@gmail.com">nickzcv@gmail.com</a>
+                        <a href="mailto:nickzcv@gmail.com">nickzcv@gmail.com</a>
                       </p>
                     </div>
                   </li>
                   {/* End silgle address */}
+
+                  <li>
+                    <div className="list_inner">
+                      <img
+                        className="svg"
+                        src="img/svg/location.svg"
+                        alt="location"
+                      />
+                      <p>Minsk, Belarus</p>
+                    </div>
+                  </li>
+                  {/* End silgle address */}
+                  
                 </ul>
               </div>
               {/* End modal conetent */}
